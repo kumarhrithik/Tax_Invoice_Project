@@ -1,0 +1,41 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Data Extraction",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/data_extraction.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+        },
+        {
+            "name": "Python: Data Storage",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/data_storage.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Deduplication",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/deduplication.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: SQL Operations",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/sql_operations.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Reporting",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/reporting.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
